@@ -26,3 +26,8 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 	> npm install
 	> gulp
 ```
+####Other note#####
+
+* start from lecture 23
+* in lecture 27
+
