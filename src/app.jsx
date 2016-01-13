@@ -8,6 +8,8 @@ var rootUrl ='https://sizzling-inferno-5872.firebaseio.com/';
 var App = React.createClass({
   mixins:[ ReactFire ],
 	componentWillMount: function(){
+    //you can do this this.firebase = new Firebase(rootUrl + 'items/')
+    // and refer in the bind and later in itemsStore as this.firebase
     this.bindAsObject(new Firebase(rootUrl + 'items/'), 'items'); //bindAsObject is from reactFire
     // this.state.items = {}
   },
@@ -17,7 +19,7 @@ var App = React.createClass({
         <h2 className="text-center">
           TO-DO List
         </h2>
-        <Header />
+        <Header itemsStore={this.firebaseRefs.items} />
       </div>
     </div>
   }
