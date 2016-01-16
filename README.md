@@ -29,5 +29,5 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 ####Other note#####
 
 * start from lecture 23
-* Done lecture 31
+* Done lecture 33 have trouble with checked property
 
