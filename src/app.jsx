@@ -15,8 +15,6 @@ var App = React.createClass({
     }
   },
 	componentWillMount: function(){
-    //you can do this this.firebase = new Firebase(rootUrl + 'items/')
-    // and refer in the bind and later in itemsStore as this.firebase
     // this will render the element again
     fb = new Firebase(rootUrl + 'items/');
     this.bindAsObject(fb, 'items'); //bindAsObject is from reactFire
