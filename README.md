@@ -29,5 +29,5 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 ####Other note#####
 
 * start from lecture 23
-* Done lecture 36
+* Done lecture 37
 

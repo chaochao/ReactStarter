@@ -7,7 +7,7 @@ module.exports = React.createClass({
     </div>
   },
   renderList: function(){
-    if(this.props.items && Object.keys(this.props.items).length === 0){
+    if(!this.props.items){
       return <h4>
         nothing here
       </h4>
